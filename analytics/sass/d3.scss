@@ -1,0 +1,105 @@
+.speedometer-background{
+    background-color: black;
+    height: 100%;
+}
+#speedometer{
+  height: 100%;
+
+    width: auto;//before it has width in px so change into auto or 100%
+}
+.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* css formats for the gauge */
+
+.gauge{
+    
+}
+.gauge .domain {
+    stroke-width: 2px;
+    stroke: #fff;
+}
+
+.gauge .tick line {
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+.gauge line {
+    stroke: #fff;
+}
+
+.gauge .arc, .gauge .cursor {
+    opacity: 0;
+}
+
+.gauge .major {
+    fill: #fff;
+    font-size: 20px;
+    font-family: 'Play', verdana, sans-serif;
+    font-weight: normal;
+}
+
+.gauge .indicator {
+    stroke: #EE3311;
+    fill: #000;
+    stroke-width: 4px;
+}
+
+/* css formats for the segment display */
+.segdisplay .on {
+    fill: #00FFFF;
+
+}
+
+.segdisplay .off {
+    fill: #00FFFF;
+    opacity: 0.15;
+}
+
+/*us map */
+#map{
+  position: relative; 
+  width: 100%; 
+  height: 100%;
+  margin-top: -5%;
+}
+/*day-hour map */
+rect.bordered {
+    stroke: #E6E6E6;
+    stroke-width:2px;   
+  }
+
+  text.mono {
+    font-size: 9pt;
+    font-family: Consolas, courier;
+    fill: #aaa;
+  }
+
+  text.axis-workweek {
+    fill: #000;
+  }
+
+  text.axis-worktime {
+    fill: #000;
+  }
+
+  .canvas-holder{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+  }
+  .svg-content-responsive{
+  display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}

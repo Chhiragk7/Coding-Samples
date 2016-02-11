@@ -1,0 +1,56 @@
+body {
+  background: #f7f7f7;
+}
+.filter-background {
+  background: white;
+  margin-bottom: 20px;
+}
+.filter-background .filter-box-left-margin {
+  margin-left: 20px;
+  padding: 10px;
+}
+.filter-background .filter-style {
+  padding: 5px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.panel {
+  border: 1px solid #efefef;
+  background: #FFFFFF;
+  border-radius: 0px;
+}
+
+.panel-heading h5 {
+  color: #3eaf3a;
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.main-counter-styling {
+  font-size: 140px;
+  font-weight: bold;
+  color: #3eaf3a;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.other-counter-holder {
+  font-size: 36px;
+  font-weight: bold;
+  color: #3eaf3a;
+  text-align: center;
+}
+
+.spinner-position {
+  margin-left: 45% !important;
+  margin-top: 5% !important;
+  position: absolute;
+}
+
+#sale-service-doughnut {
+  margin-left: 45% !important;
+  margin-top: 45% !important;
+  position: absolute;
+}
