@@ -1,0 +1,55 @@
+/* nvabar styling */
+
+.navbar{
+	padding: 10px;
+
+}
+
+.navbar .container .navbar-header a{
+	font-size: 26px;
+	color: rgb(247, 147, 29);
+}
+
+.navbar .container .collapse ul li a{
+	padding-left: 20px;
+	font-size: 16px;
+	font-family: Zapf Chancery, cursive;
+	font-size: 18px;
+}
+
+.navbar .container .collapse ul li a:hover{
+	background-color: rgb(247, 147, 29);
+	border-radius: 5px;
+	color: white;
+
+}
+
+/*main-content styling*/
+
+.heading{
+	margin-top: -20px;
+	background-color: rgb(247, 147, 29);
+	height: auto;
+}
+
+.heading h1{
+	color:white;
+	font-family: Zapf Chancery, cursive;
+}
+
+
+
+
+
+
+
+/*footer styling */
+
+.bottom{
+	width: 100%;
+	height: 100px;
+	background-color: rgb(247, 147, 29);
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
